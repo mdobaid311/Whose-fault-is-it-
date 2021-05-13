@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<body></body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous" />
+<link rel="stylesheet" href="style.css" />
+<title>Whose fault is it?</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <h1>Whose fault is it?</h1>
+    <div class="container">
+      <h3>ENTER THE NAMES</h3>
+      <div class="names">
+        <label for="person-1">Person-1: </label><input type="text" id="person-1" />
+        <label for="person-2">Person-2: </label><input type="text" id="person-2" />
+      </div>
+      <button type="submit" id="submit">Find Out</button>
+      <span id="note"></span>
+      <span ></span>
+    </div>
+    <div class="fault" id="fault">
+      <h1>Whose fault is it?</h1>
+      <div class="faults">
+        <label for="person-1-fault" id="person-1-fault-label">Person-1</label>
+        <label class="switch">
+          <input type="checkbox" id="person-1-fault">
+          <span class="slider round"></span>
+        </label> <label for="person-2-fault" id="person-2-fault-label">Person-2</label>
+        <label class="switch">
+          <input type="checkbox" id="person-2-fault">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="person-submit">
+        <button type="submit" id="submit-fault">Next</button> </div>
+    </div>
+    <div class="result" id="result"><span id="display-result">
+      </span></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
